@@ -99,8 +99,14 @@ p {
 }
 
 #footer p{
-	color: grey;
+	color: green;
+	font-size: 15px;
 	font-weight: 300;
+	
 	text-align: center;
 	margin: 0px;
+}
+
+#lines {
+	letter-spacing: 0.5em;
 }
