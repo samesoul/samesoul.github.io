@@ -84,21 +84,24 @@ p {
 
 #links a:hover {
 	color: #f8e81c;
-	text-shadow: 1.5px 1.5px #0000ff;
 	
 }
 
+#footer #copyright {
+	color: black;
+	font-size: 70%;
+	font-weight:400;
+	
+}
 
 #footer {
-	color: grey;
-	font-size: 70%;
-	font-weight: 300;
-	text-align: center;
+	
 	clear: both;
 }
 
 #footer p{
 	color: grey;
-	letter-spacing: -.1em;
+	font-weight: 300;
+	text-align: center;
 	margin:0px;
 }
