@@ -89,19 +89,18 @@ p {
 
 #footer #copyright {
 	color: black;
-	font-size: 70%;
+	font-size: 10px;
 	font-weight:400;
-	
 }
 
 #footer {
-	
 	clear: both;
+	margin-top: 1%;
 }
 
 #footer p{
 	color: grey;
 	font-weight: 300;
 	text-align: center;
-	margin:0px;
+	margin: 0px;
 }
