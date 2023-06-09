@@ -2,6 +2,29 @@
     background-color: #fbf8f1ff;
 }
 
+body {
+	font-family: 'Archivo', 'Helvetica Neue', sans-serif;
+	cursor: crosshair;
+	/*line-height: 1.6em;*/
+}
+
+p {
+	color: #000000;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+#bio {
+	text-align:justify;
+}
+
+#floated{
+    float: left;
+	margin: 0em 1em .3em 0em;
+	width: 200px;
+    border:3px #f8e81c double;
+}
+
 #header {
 	text-align: left;
 }
@@ -42,18 +65,6 @@ h2 {
 	margin-bottom: 2%;
 }
 
-body {
-	font-family: 'Archivo', 'Helvetica Neue', sans-serif;
-	/*line-height: 1.6em;*/
-}
-
-p {
-	color: #000000;
-	font-size: 2em;
-	font-weight: 400;
-}
-
-
 /*
 #container {
 	background-color: #EBEBE0;
@@ -92,6 +103,7 @@ p {
 	font-size: 10px;
 	font-weight:400;
 }
+
 
 #footer {
 	clear: both;
