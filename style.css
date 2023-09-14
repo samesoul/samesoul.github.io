@@ -1,38 +1,38 @@
 * {
-    background-color: #fbf8f1ff;
+   background-color: #ffffff;
 }
 
 body {
 	font-family: 'Archivo', 'Helvetica Neue', sans-serif;
 	cursor: crosshair;
-	/*line-height: 1.6em;*/
+	width: auto;
+	margin: 2%;
+	padding: 1%;
+	border: 3px black double;
+
+}
+
+
+
+#header {
+	text-align: left;
+	position: relative;
+}
+
+#bio {
+	text-align:justify;
+	float:left;
+	position: relative;
 }
 
 p {
 	color: #000000;
 	font-size: 2em;
-	font-weight: 400;
-}
-
-#bio {
-	text-align:justify;
-}
-
-/*
-#floated{
-    float: left;
-	margin: 0em 1em .3em 0em;
-	width: 200px;
-    border:3px #f8e81c double;
-}
-*/
-
-#header {
-	text-align: left;
+	font-weight: 300;
+	line-height: 1.2em;
 }
 
 p strong {
-	color: #34ab55;
 	font-weight: 500;
 }
 
@@ -42,21 +42,22 @@ p a {
 }
 
 p a:hover {
-	color: #f8e81c;
-	background-color: #34ab55;
+	color:#000000;
+	text-decoration-line: underline overline;
+	text-decoration-color: #d6d6d6;
 }
 
 h1 a {
 	font-family: Archivo, 'Helvetica Neue', sans-serif;
 	font-size: 1.5em;
-	font-weight: 500;
-	color: #34ab55;
-	text-decoration: underline;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
 }
 
 h1:hover a:hover{
 	color: #f8e81c;
-	text-shadow: 3px 3px #0000ff;
+	text-shadow: 3px 3px #34ab55;
 	text-decoration:underline;
 	text-decoration-style: dotted;
 }
@@ -65,61 +66,37 @@ h2 {
 	font-family: Archivo, 'Helvetica Neue', sans-serif;
 	font-weight: 500;
 	margin-bottom: 2%;
+	text-indent: 3px;
 }
-
-/*
-#container {
-	background-color: #EBEBE0;
-	border: 2px solid #FAFAE6;
-	width: 960px; 
-	overflow: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-*/
-
-/*
-#content {
-	width: 640px;
-	background-color: #ADAD85;
-	float: right;
-	padding: 18px 20px 18px 20px;
-}
-*/
 
 #links {
-	text-align: center;
+	text-align: left;
 }
 
 #links a {
-	color: #34ab55;
+	color: #000000;
 	letter-spacing: .2em;
 }
 
 #links a:hover {
-	color: grey;
+	color: #0000ff;
 }
 
 #footer #copyright {
 	color: black;
-	font-size: 10px;
-	font-weight:400;
+	font-size:small;
+	font-weight:200;
 }
 
 
-#footer {
-	clear: both;
-	margin-top: 1%;
-}
-
-#footer p{
-	color: green;
-	font-size: 15px;
-	font-weight: 300;
+#trigrams {
 	text-align: center;
-	margin: 0px;
+	width:max-content;
+	color:#ffffff;
+	font-size: 20px;
+	margin: auto;
 }
 
-#lines {
-	letter-spacing: 0.5em;
+#trigrams:hover {
+	color: #0000ff;
 }
