@@ -13,15 +13,40 @@ body {
 }
 
 
-
 #header {
 	text-align: left;
 	position: relative;
 }
 
+#header p {
+	background-color: #f2f4ef;
+	padding: 1%;
+	color: #000000;
+	font-size: 1em;
+	text-align: justify;
+}
+
+h1 {
+	margin-bottom: 5%;
+}
+
+h1 a {
+	font-family: Archivo, 'Helvetica Neue', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+h1:hover a:hover{
+	color: #f8e81c;
+	text-shadow: 3px 3px #34ab55;
+	text-decoration:underline;
+	text-decoration-style: dotted;
+}
+
 #bio {
 	text-align:justify;
-	float:left;
 	position: relative;
 }
 
@@ -41,26 +66,16 @@ p a {
 	text-decoration: none;
 }
 
+.dotted {
+	border-top: 2px dotted #000000;
+}
+
 p a:hover {
 	color:#000000;
 	text-decoration-line: underline overline;
 	text-decoration-color: #d6d6d6;
 }
 
-h1 a {
-	font-family: Archivo, 'Helvetica Neue', sans-serif;
-	font-size: 1.5em;
-	font-weight: 400;
-	color: #000000;
-	text-decoration: none;
-}
-
-h1:hover a:hover{
-	color: #f8e81c;
-	text-shadow: 3px 3px #34ab55;
-	text-decoration:underline;
-	text-decoration-style: dotted;
-}
 
 h2 {
 	font-family: Archivo, 'Helvetica Neue', sans-serif;
@@ -86,6 +101,7 @@ h2 {
 	color: black;
 	font-size:small;
 	font-weight:200;
+	line-height:1.75em;
 }
 
 
