@@ -3,58 +3,45 @@
 }
 
 body {
-	font-family: 'Archivo', 'Helvetica Neue', sans-serif;
+	font-family: 'Times New Roman', serif;
 	cursor: crosshair;
 	width: auto;
-	margin: 2%;
+	margin: 10%;
 	padding: 1%;
-	border: 3px black double;
-
-}
-
-
-#header {
-	text-align: left;
-	position: relative;
-}
-
-#header p {
-	background-color: #f2f4ef;
-	padding: 1%;
-	color: #000000;
-	font-size: 1em;
-	text-align: justify;
-}
-
-h1 {
-	margin-bottom: 5%;
+	border: 3px #000000 double;
+	background: none;
 }
 
 h1 a {
-	font-family: Archivo, 'Helvetica Neue', sans-serif;
+	font-family: 'Jacquarda Bastarda 9 Charted', system-ui;
 	font-size: 1.6em;
 	font-weight: 400;
 	color: #000000;
 	text-decoration: none;
+	background: none;
 }
 
 h1:hover a:hover{
-	color: #f8e81c;
-	text-shadow: 3px 3px #34ab55;
+	color: #FFFF00;
+	text-shadow: 3px 3px #ff00fb;
+	background-color: #ADFF2F;
 	text-decoration:underline;
 	text-decoration-style: dotted;
 }
 
+h2 {
+	font-family: 'Arial Black', sans-serif;
+	letter-spacing: .5em;
+}
+
 #bio {
-	text-align:justify;
-	position: relative;
+	text-align: justify;
 }
 
 p {
 	color: #000000;
-	font-size: 1.85em;
-	font-weight: 300;
-	line-height: 1.25em;
+	font-size: 1.5em;
+	line-height: 1.3em;
 }
 
 p a {
@@ -62,37 +49,16 @@ p a {
 	text-decoration: none;
 }
 
-.announcement {
-	width:75%; 
-	background-color: #f2f4ef;
-	padding: 1%;
-	position: relative; 
-	left: 50%;
-	transform: translateX(-50%);
-	font-size: 1.5em;
+p a:hover {
+	color:#0000ff;
+	text-decoration-style:double;
+	text-decoration-line:line-through;
+	text-decoration-color: #ff0000;
 }
 
-.announcement a, span, u {
-	background-color: #f2f4ef;
-}
 
 .dotted {
 	border-top: 2px dotted #000000;
-}
-
-p a:hover {
-	color:#000000;
-	text-decoration-style: wavy;
-	text-decoration-line: underline;
-	text-decoration-color: #34ab55;
-}
-
-
-h2 {
-	font-family: Archivo, 'Helvetica Neue', sans-serif;
-	font-weight: 500;
-	margin-bottom: 2%;
-	text-indent: 3px;
 }
 
 #links {
@@ -115,15 +81,50 @@ h2 {
 	line-height:1.75em;
 }
 
-
-#trigrams {
-	text-align: center;
-	width:max-content;
-	color:#ffffff;
-	font-size: 20px;
-	margin: auto;
+img {
+	max-width: 500px;
+	max-height: 500px;
 }
 
-#trigrams:hover {
+span.hover-card{
+	border:3px #0000ff solid;
+}
+
+.hover-text span.hover-card{
+	display: none;
+}
+
+.hover-text:hover span.hover-card{
+	display: flex;
+	position: absolute;
+}
+
+.hover-text{
+	position: relative;
+}
+
+#joonsung {
+	text-align: right;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #ececec;   
+	font-family: "Moirai One", system-ui;
+}
+
+#joonsung:hover {
+	color: #FFFF00;
+	text-shadow: 5px 2px #ff00fb;
+}
+
+#message {
 	color: #0000ff;
+	font-size: 1.5em;
+	font-family: 'Yarndings 20 Charted'; 
+	text-align:center;
+}
+
+#message:hover{
+	font-family: 'Arial Black', sans-serif;
+	letter-spacing: 4px;
 }
