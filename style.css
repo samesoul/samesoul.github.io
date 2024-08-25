@@ -124,7 +124,7 @@ span.hover-card{
 	text-align:center;
 }
 
-#message:hover{
+#message:active{
 	font-family: 'Arial Black', sans-serif;
 	letter-spacing: 4px;
 }
