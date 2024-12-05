@@ -29,6 +29,8 @@ h1:hover a:hover{
 	text-decoration-style: dotted;
 }
 
+
+
 h2 {
 	font-family: 'Arial Black', sans-serif;
 	letter-spacing: .5em;
@@ -40,7 +42,7 @@ h2 {
 
 p {
 	color: #000000;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	line-height: 1.3em;
 }
 
@@ -54,6 +56,12 @@ p a:hover {
 	text-decoration-style:double;
 	text-decoration-line:line-through;
 	text-decoration-color: #ff0000;
+}
+
+::selection {
+	color: #ffffff;
+	background: #0000ff;
+	text-decoration:dashed;
 }
 
 
